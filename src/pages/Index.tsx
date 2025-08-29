@@ -62,7 +62,7 @@ const Index = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{animationDelay: '0.6s'}}>
-              <Button size="lg" className="bg-[var(--gradient-primary)] text-primary-foreground hover:shadow-[var(--shadow-glow)] transition-all duration-300 transform hover:scale-105">
+              <Button size="lg" className="bg-primary text-primary-foreground border border-primary/20 hover:bg-primary/90 hover:shadow-[var(--shadow-glow)] transition-all duration-300 transform hover:scale-105">
                 Explore the Vision <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button variant="outline" size="lg" className="border-primary/30 text-primary hover:bg-primary/10 transition-all duration-300">
