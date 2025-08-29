@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Target, Users, Zap, Brain, Compass, Shield, Sparkles } from "lucide-react";
+import { ArrowRight, Target, Users, Zap, Brain, Compass, Shield, Sparkles, Database, Share } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 import logo from "@/assets/logo.png";
 
@@ -136,8 +136,8 @@ const Index = () => {
             <div className="space-y-12">
               <div className="flex flex-col lg:flex-row items-center gap-8 animate-slide-in-left">
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-[var(--gradient-primary)] rounded-full flex items-center justify-center text-2xl font-bold text-primary-foreground shadow-[var(--shadow-glow)] animate-glow-pulse">
-                    1
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-[var(--shadow-glow)] animate-glow-pulse">
+                    <Database className="h-8 w-8 text-primary-foreground" />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -150,8 +150,8 @@ const Index = () => {
               
               <div className="flex flex-col lg:flex-row items-center gap-8 animate-slide-in-right" style={{animationDelay: '0.2s'}}>
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-[var(--gradient-primary)] rounded-full flex items-center justify-center text-2xl font-bold text-primary-foreground shadow-[var(--shadow-glow)] animate-glow-pulse" style={{animationDelay: '1s'}}>
-                    2
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-[var(--shadow-glow)] animate-glow-pulse" style={{animationDelay: '1s'}}>
+                    <Share className="h-8 w-8 text-primary-foreground" />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -164,8 +164,8 @@ const Index = () => {
               
               <div className="flex flex-col lg:flex-row items-center gap-8 animate-slide-in-left" style={{animationDelay: '0.4s'}}>
                 <div className="flex-shrink-0">
-                  <div className="w-16 h-16 bg-[var(--gradient-primary)] rounded-full flex items-center justify-center text-2xl font-bold text-primary-foreground shadow-[var(--shadow-glow)] animate-glow-pulse" style={{animationDelay: '2s'}}>
-                    3
+                  <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center shadow-[var(--shadow-glow)] animate-glow-pulse" style={{animationDelay: '2s'}}>
+                    <Brain className="h-8 w-8 text-primary-foreground" />
                   </div>
                 </div>
                 <div className="flex-1">
