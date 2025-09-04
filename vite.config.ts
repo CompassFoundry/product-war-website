@@ -8,7 +8,9 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: '::',
     port: 8080,
-    allowedHosts: ['vita.productwar.com'],
+    preview: {
+      allowedHosts: ['vita.productwar.com'],
+    },
   },
   plugins: [react(), mode === 'development' && componentTagger()].filter(
     Boolean
